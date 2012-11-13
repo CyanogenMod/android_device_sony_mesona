@@ -1,0 +1,12 @@
+#!/sbin/sh
+
+# trigger amber LED
+#echo '255' > /sys/class/leds/lcd-backlight/brightness
+
+cat /dev/input/event2 > /dev/keycheck&
+sleep 3
+
+# poweroff LED and button-backlight
+#echo '0' > /sys/class/leds/lcd-backlight/brightness
+
+kill -9 $!

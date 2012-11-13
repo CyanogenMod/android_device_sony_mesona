@@ -1,0 +1,11 @@
+[
+  {
+    "repository": "android_device_sony_tamsui-common",
+    "target_path": "device/sony/tamsui-common"
+ },
+ {
+    "repository": "sony-kernel-msm7x27a",
+    "target_path": "kernel/sony/msm7x27a",
+    "branch": "jellybean"
+  }
+]
