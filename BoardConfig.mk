@@ -7,7 +7,7 @@ USE_CAMERA_STUB := true
 -include device/sony/tamsui-common/BoardConfigCommon.mk
 
 TARGET_KERNEL_CONFIG := cyanogen_mesona_defconfig
-BOARD_KERNEL_CMDLINE :=
+BOARD_KERNEL_CMDLINE := device/sony/mesona/config/cmdline.txt
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 16
