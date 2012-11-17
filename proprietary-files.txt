@@ -12,7 +12,6 @@ bin/nvcustomizer
 bin/updatemiscta
 bin/mm-pp-daemon
 bin/cnd
-bin/sdcard
 bin/ds_fmc_appd
 bin/battery_charging
 bin/qmiproxy
