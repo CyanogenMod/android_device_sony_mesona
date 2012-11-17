@@ -12,8 +12,6 @@ BOARD_KERNEL_CMDLINE := device/sony/mesona/config/cmdline.txt
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 16
 
-# the following two sizes are generous guesses
-# since these partitions are not visible
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x01400000
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x01400000
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 524288000

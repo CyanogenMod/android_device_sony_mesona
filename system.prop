@@ -22,8 +22,8 @@ ro.sf.lcd_density=160
 com.qc.hardware=true
 debug.sf.hw=1
 debug.composition.type=gpu
-debug.mdpcomp.maxlayer=3
-debug.mdpcomp.logs=0
+#debug.mdpcomp.maxlayer=3
+#debug.mdpcomp.logs=0
 
 # QCOM CpuGovernorService
 dev.pm.dyn_samplingrate=1
