@@ -1,12 +1,9 @@
-bin/usbhub_init
 bin/btnvtool
 bin/startupflag
 bin/rmt_storage
 bin/tad
 bin/bridgemgrd
 bin/port-bridge
-bin/btld
-bin/usbhub
 bin/ATFWD-daemon
 bin/nvcustomizer
 bin/updatemiscta
@@ -16,13 +13,9 @@ bin/ds_fmc_appd
 bin/battery_charging
 bin/qmiproxy
 bin/netmgrd
-bin/sapd
 bin/ta_rmt_service
 bin/wiperiface
-bin/dun-server
 bin/qmuxd
-bin/getrootingstatus
-bin/fotainit
 bin/wait4tad
 etc/chgani/ca06.rle
 etc/chgani/ca02.rle
@@ -70,7 +63,6 @@ lib/libOmxIttiamVdec.so
 lib/libwms.so
 lib/libOmxAmrRtpDec.so
 lib/libqdp.so
-lib/libutils.so
 lib/libOmxWmvDec.so
 lib/libril-qc-qmi-1.so
 lib/libOmxMpeg4Dec.so
@@ -85,7 +77,6 @@ lib/liboncrpc.so
 lib/libdsm.so
 lib/libril-qc-1.so
 lib/libqmi.so
-lib/libm.so
 lib/libOmxQcelp13Dec.so
 lib/libpbmlib.so
 lib/libOmxrv9Dec.so
@@ -103,3 +94,12 @@ lib/libOmxAacDec.so
 lib/libcneapiclient.so
 lib/libmmjpeg.so
 lib/libidl.so
+lib/libc2d2_z180.so
+lib/libsc-a2xx.so
+lib/libgsl.so
+lib/egl/libGLESv2S3D_adreno200.so
+lib/egl/libGLESv2_adreno200.so
+lib/egl/libGLESv1_CM_adreno200.so
+lib/egl/eglsubAndroid.so
+lib/egl/libq3dtools_adreno200.so
+lib/egl/libEGL_adreno200.so
