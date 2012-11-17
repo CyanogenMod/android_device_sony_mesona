@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/7k_handset.kl:system/usr/keylayout/7k_handset.kl \
    $(LOCAL_PATH)/config/7x27a_kp.kl:system/usr/keylayout/7x27a_kp.kl \
+   $(LOCAL_PATH)/config/cyttsp_i2c_tma340.idc:system/usr/idc/cyttsp_i2c_tma340.idc \
    $(LOCAL_PATH)/config/cyttsp_i2c_tma340.kl:system/usr/keylayout/cyttsp_i2c_tma340.kl \
    $(LOCAL_PATH)/config/fih_gpio-keys.kl:system/usr/keylayout/fih_gpio-keys.kl \
    $(LOCAL_PATH)/config/simple_remote_appkey.kl:system/usr/keylayout/simple_remote_appkey.kl \
