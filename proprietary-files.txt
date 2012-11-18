@@ -30,12 +30,9 @@ etc/firmware/MES_TMA340_0005.hex
 etc/firmware/MES_TMA340_0006.hex
 etc/firmware/yamato_pm4.fw
 etc/firmware/yamato_pfp.fw
-etc/bcm4330/sdio_g_pool_pno_pktfilter_keepalive_wapi_wme_idsup_idauth_p2p_aoe.bin
-etc/bcm4330/sdio-g-mfgtest-seqcmds.bin
-etc/bcm4330/BCM4330B1_002.001.003.0750.0775.hcd
-etc/bcm4330/sdio_g_pool_pno_pktfilter_keepalive_wapi_wme_idsup_idauth_apsta_aoe.bin
-etc/bcm4330/bcm94330wlsdgbphone.txt
-etc/bcm4330/sdio_g_pool_pno_pktfilter_keepalive_wapi_wme_idsup_idauth_sta_aoe.bin
+etc/firmware/sdio-g-mfgtest-seqcmds.bin
+etc/firmware/BCM4330B1_002.001.003.0750.0775.hcd
+etc/firmware/bcm94330wlsdgbphone.txt
 lib/libOmxQcelp13Enc.so
 lib/libmiscta.so
 lib/libauth.so
