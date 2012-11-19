@@ -9,6 +9,9 @@ USE_CAMERA_STUB := true
 TARGET_KERNEL_CONFIG := cyanogen_mesona_defconfig
 BOARD_KERNEL_CMDLINE := device/sony/mesona/config/cmdline.txt
 
+#LED Config
+COMMON_GLOBAL_CFLAGS += -DFANCY_NOTIFICATION
+
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 16
 
@@ -22,6 +25,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_USERIMAGES_USE_EXT4 := true
+
 
 BOARD_SDCARD_INTERNAL_DEVICE := /dev/block/mmcblk0p16
 
