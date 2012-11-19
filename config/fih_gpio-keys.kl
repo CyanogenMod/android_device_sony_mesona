@@ -103,7 +103,7 @@ key 82    MEDIA_NEXT
 key 79    MEDIA_PREVIOUS
 key 164   MEDIA_PLAY_PAUSE
 #key 80    VENDOR_1
-key 81    DSDS_SWITCH
+#key 81    DSDS_SWITCH
 
 # Numeric keypad
 key 522   STAR              WAKE_DROPPED
