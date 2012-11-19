@@ -1,2 +1,4 @@
 # Graphics
 ro.sf.lcd_density=160
+
+mobiledata.interfaces=rmnet0,rmnet1
