@@ -38,7 +38,7 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 # Configuration scripts
 PRODUCT_COPY_FILES += \
-    device/sony/tamsui-common/prebuilt/logo_M.rle:root/logo.rle \
+    device/sony/tamsui-common/prebuilt/logo_M.rle:root/logo.rle
 
 # USB function switching
 PRODUCT_COPY_FILES += \
