@@ -1,12 +1,9 @@
-#!/sbin/sh
+#!/sbin/busybox sh
 
-# trigger amber LED
-#echo '255' > /sys/class/leds/lcd-backlight/brightness
-
-cat /dev/input/event2 > /dev/keycheck&
-sleep 3
-
-# poweroff LED and button-backlight
-#echo '0' > /sys/class/leds/lcd-backlight/brightness
-
-kill -9 $!
+export BOOTREC_CACHE_NODE="/dev/block/mmcblk0p11 b 179 11"
+export BOOTREC_CACHE="/dev/block/mmcblk0p11"
+export BOOTREC_EVENT_NODE="/dev/input/event0 c 13 64"
+export BOOTREC_EVENT="/dev/input/event0"
+export BOOTREC_LED_RED="/sys/class/leds/red/brightness"
+export BOOTREC_LED_GREEN="/sys/class/leds/green/brightness"
+export BOOTREC_LED_BLUE="/sys/class/leds/blue/brightness"
