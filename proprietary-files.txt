@@ -86,6 +86,7 @@ lib/libdiag.so
 lib/libdsi_netctrl.so
 lib/libdsm.so
 lib/libdsutils.so
+lib/libgemini.so
 lib/libgps.utils.so
 lib/libgsl.so
 lib/libidl.so
@@ -97,10 +98,12 @@ lib/libmm-abl-oem.so
 lib/libmm-abl.so
 lib/libmm-adspsvc.so
 lib/libmm-omxcore.so
+lib/libmmipl.so
 lib/libmmjpeg.so
 lib/libnetmgr.so
 lib/libnv.so
 lib/liboem_rapi.so
+lib/liboemcamera.so
 lib/liboncrpc.so
 lib/libpbmlib.so
 lib/libqdi.so
