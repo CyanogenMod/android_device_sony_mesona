@@ -6,11 +6,10 @@ USE_CAMERA_STUB := true
 #inherit from the common tamsui definitions
 -include device/sony/tamsui-common/BoardConfigCommon.mk
 
+TARGET_SPECIFIC_HEADER_PATH += device/sony/mesona/include
+
 TARGET_KERNEL_CONFIG := cyanogen_mesona_defconfig
 BOARD_KERNEL_CMDLINE := device/sony/mesona/config/cmdline.txt
-
-#LED Config
-COMMON_GLOBAL_CFLAGS += -DFANCY_NOTIFICATION
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 16
