@@ -18,13 +18,6 @@ bin/tad
 bin/updatemiscta
 bin/wait4tad
 bin/wiperiface
-etc/chgani/ca01.rle
-etc/chgani/ca02.rle
-etc/chgani/ca03.rle
-etc/chgani/ca04.rle
-etc/chgani/ca05.rle
-etc/chgani/ca06.rle
-etc/chgani/ca07.rle
 etc/bcm4330/BCM4330B1_002.001.003.0750.0775.hcd
 etc/bcm4330/bcm94330wlsdgbphone.txt
 etc/bcm4330/sdio-g-mfgtest-seqcmds.bin
