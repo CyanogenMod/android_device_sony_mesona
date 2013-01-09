@@ -45,7 +45,6 @@ lib/libOmxAmrDec.so
 lib/libOmxAmrEnc.so
 lib/libOmxAmrRtpDec.so
 lib/libOmxAmrwbDec.so
-lib/libOmxCore.so
 lib/libOmxEvrcDec.so
 lib/libOmxEvrcEnc.so
 lib/libOmxEvrcHwDec.so
@@ -89,7 +88,6 @@ lib/libmiscta.so
 lib/libmm-abl-oem.so
 lib/libmm-abl.so
 lib/libmm-adspsvc.so
-lib/libmm-omxcore.so
 lib/libmmipl.so
 lib/libmmjpeg.so
 lib/libnetmgr.so
