@@ -1,6 +1,7 @@
 bin/ATFWD-daemon
 bin/battery_charging
 bin/bridgemgrd
+bin/btld
 bin/btnvtool
 bin/cnd
 bin/ds_fmc_appd
@@ -78,6 +79,8 @@ lib/libdiag.so
 lib/libdsi_netctrl.so
 lib/libdsm.so
 lib/libdsutils.so
+lib/libfmradio.so
+lib/libfmradio.brcm-prop_rx.so
 lib/libgemini.so
 lib/libgps.utils.so
 lib/libgsl.so
