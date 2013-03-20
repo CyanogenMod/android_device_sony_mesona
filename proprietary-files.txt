@@ -29,14 +29,6 @@ etc/firmware/MES_TMA340_0001.hex
 etc/firmware/MES_TMA340_0004.hex
 etc/firmware/MES_TMA340_0005.hex
 etc/firmware/MES_TMA340_0006.hex
-etc/firmware/yamato_pfp.fw
-etc/firmware/yamato_pm4.fw
-lib/egl/eglsubAndroid.so
-lib/egl/libEGL_adreno200.so
-lib/egl/libGLESv1_CM_adreno200.so
-lib/egl/libGLESv2S3D_adreno200.so
-lib/egl/libGLESv2_adreno200.so
-lib/egl/libq3dtools_adreno200.so
 lib/hw/camera.msm7x27a.so
 lib/hw/sensors.default.so
 lib/libdivxdrmdecrypt.so
@@ -68,7 +60,6 @@ lib/lib_get_rooting_status.so
 lib/liballjoyn.so
 lib/libaudioalsa.so
 lib/libauth.so
-lib/libc2d2_z180.so
 lib/libcm.so
 lib/libcneapiclient.so
 lib/libcneqmiutils.so
@@ -83,7 +74,6 @@ lib/libfmradio.so
 lib/libfmradio.brcm-prop_rx.so
 lib/libgemini.so
 lib/libgps.utils.so
-lib/libgsl.so
 lib/libidl.so
 lib/libloc_adapter.so
 lib/libloc_api-rpc-qc.so
@@ -109,7 +99,6 @@ lib/libril-qc-1.so
 lib/libril-qc-qmi-1.so
 lib/libril-qcril-hook-oem.so
 lib/libril.so
-lib/libsc-a2xx.so
 lib/libwms.so
 lib/libwmsts.so
 lib/libxml.so
