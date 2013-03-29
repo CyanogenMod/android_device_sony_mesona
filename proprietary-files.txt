@@ -1,4 +1,3 @@
-bin/ATFWD-daemon
 bin/battery_charging
 bin/bridgemgrd
 bin/btld
