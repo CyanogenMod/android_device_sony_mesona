@@ -1,3 +1,22 @@
+on early-boot
+    write /sys/class/android_usb/android0/enable 0
+    write /sys/class/android_usb/android0/idVendor 0FCE
+    write /sys/class/android_usb/android0/idProduct E188
+    write /sys/class/android_usb/android0/functions mass_storage
+    write /sys/class/android_usb/android0/enable 1
+    exec /system/bin/battery_charging
+
+on post-fs
+    #Permission for Lights
+    chown system system /sys/class/led/fih_led/control
+    chown system system /sys/devices/virtual/graphics/fb0/msmfb_bl0/brightness
+
+    #vibrator
+    chown system system /sys/class/vibrator/pmic-vib/control
+
+    #buffer fix
+    write /sys/module/msm_fb/parameters/align_buffer 1
+
 service hciattach /system/bin/brcm_patchram_plus --enable_hci --enable_lpm \
     --use_baudrate_for_download --tosleep 20000 --scopcm 0,4,0,0,0,0,0,0,3,0 \
     --no2bytes --baudrate 3000000 --patchram /system/etc/bcm4330/BCM4330B1_002.001.003.0750.0775.hcd \
@@ -7,4 +26,3 @@ service hciattach /system/bin/brcm_patchram_plus --enable_hci --enable_lpm \
     group bluetooth net_bt_admin qcom_oncrpc
     disabled
     oneshot
-
