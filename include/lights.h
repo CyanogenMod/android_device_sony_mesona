@@ -15,7 +15,7 @@ char const*const BLUE_LED_BLINK_OFF  = "02 2 0";
 char const*const KEY_LED_ON          = "01 3 1";
 char const*const KEY_LED_OFF         = "01 3 0";
 
-char const*const LCD_BACKLIGHT_FILE  = "/sys/devices/virtual/graphics/fb0/msmfb_bl0/brightness";
+char const*const LCD_BACKLIGHT_FILE  = "/sys/devices/platform/msm_fb.590593/leds/lcd-backlight/brightness";
 
 char const*const LED_CONTROL_FILE    = "/sys/class/led/fih_led/control";
 
