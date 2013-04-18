@@ -1,4 +1,4 @@
-USE_CAMERA_STUB := true
+TARGET_USES_LEGACY_BOARD := true
 
 # inherit from the proprietary version
 -include vendor/sony/mesona/BoardConfigVendor.mk
