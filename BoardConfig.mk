@@ -8,7 +8,7 @@ USE_CAMERA_STUB := true
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/mesona/include
 
-TARGET_KERNEL_CONFIG := cyanogen_mesona_defconfig
+TARGET_KERNEL_CONFIG := cm_tamsui_mes_defconfig
 BOARD_KERNEL_CMDLINE := device/sony/mesona/config/cmdline.txt
 
 # Partition information
