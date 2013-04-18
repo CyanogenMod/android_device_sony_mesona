@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
 
 # USB function switching
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/config/init.device.rc:root/init.device.rc \
     $(LOCAL_PATH)/config/init.sony.usb.rc:root/init.sony.usb.rc
 
 PRODUCT_COPY_FILES += \
