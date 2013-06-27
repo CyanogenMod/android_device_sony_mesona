@@ -11,12 +11,8 @@ bin/port-bridge
 bin/qmiproxy
 bin/qmuxd
 bin/rild
-bin/rmt_storage
 bin/startupflag
-bin/ta_rmt_service
-bin/tad
 bin/updatemiscta
-bin/wait4tad
 bin/wiperiface
 etc/bcm4330/BCM4330B1_002.001.003.0750.0775.hcd
 etc/bcm4330/bcm94330wlsdgbphone.txt

@@ -55,6 +55,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/bootrec-device:recovery/bootrec-device
 
+# Ramdisk
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/rmt_storage:root/sbin/rmt_storage \
+    $(LOCAL_PATH)/prebuilt/ta_rmt_service:root/sbin/ta_rmt_service \
+    $(LOCAL_PATH)/prebuilt/tad:root/sbin/tad \
+    $(LOCAL_PATH)/prebuilt/wait4tad:root/sbin/wait4tad
+
 # Key layouts and touchscreen
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/7k_handset.kl:system/usr/keylayout/7k_handset.kl \
